@@ -5,6 +5,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<link rel="shortcut icon" type="image/png" href="images/favicon/favicon-32x32.png" size="32x32"/>
+	<link rel="shortcut icon" type="image/png" href="images/favicon/favicon-16x16.png" size="16x16"/>
+	<link rel="shortcut icon" type="image/png" href="images/favicon/favicon-96x96.png" size="96x96"/>
+
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -26,6 +30,14 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
+<style type="text/css">
+	a.jumptarget{
+		display:block;
+		height:110px; /* fixed header height*/
+		margin:-110px 0 0; /* negative fixed header height */
+		visibility:hidden;
+	}
+</style>
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -38,12 +50,12 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="project.html" class="nav-link">Publications</a></li>
-					<li class="nav-item"><a href="services.html" class="nav-link">Experience</a></li>
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#publications" class="nav-link">Publications</a></li>
+					<li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
 					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -61,14 +73,16 @@
 					</div>
 					<div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 						<div class="text">
-							<h1 class="mb-4" style="font-size:28px;">A PhD Student in </br>Computer Science at</br>National University of Singapore</h1>
-							<p><!--a href="#" class="btn btn-primary px-4 py-3 mt-3">View our works</a--></p>
+							<h1 class="mb-4" style="font-size:28px;">A PhD Student in <br>Computer Science at<br>National University of Singapore</h1>
+							<!--p><a href="#" class="btn btn-primary px-4 py-3 mt-3">View our works</a></p-->
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<a name="about" class="jumptarget"><div>HIDDEN PART - NOT EXPECTED TO BE DISPLAYED</div></a>
 
 	<section class="ftco-section ftc-no-pb" style="background: #e6f0ff;">
 		<div class="container">
@@ -76,26 +90,20 @@
 				<!-- DROPPED THE IMAGE HERE, MODIFY COL-INFO CORRESPONDINGLY -->
 				<!-- div class="col-md-5 p-md-5 img img-2" style="background-image: url(images/bg_3.jpg);"></div -->
 				<div class="col-md-12 wrap-about pb-md-2 ftco-animate">
-					<div class="heading-section mb-5 pl-md-5">
-						<div class="ml-md-5">
+					<div class="heading-section mb-5 pl-md-3">
+						<div>
 							<span class="subheading subheading-with-line"><small class="pr-2">About Me</small></span>
 							<h4 class="mb-4">Mark Huasong <u>Meng</u></h4>
 						</div>
 					</div>
-					<div class="pl-md-5 ml-md-5 mb-5">
-						<p>
-							I am a cognitive scientist interested in how people (and computers) reason about other people: how they think and what they feel.
-							<br><br>
-							I am an Assistant Professor of <a href="https://www.comp.nus.edu.sg/disa/bio/dongch//">Information Systems and Analytics</a> within the <a href="https://www.comp.nus.edu.sg/">School of Computing</a> at the <a href="https://nus.edu.sg/">National University of Singapore</a>.
-							<!-- <br><br> -->
-							I also hold a concurrent appointment as a Research Scientist <!-- and Work Package Lead --> at the A*STAR Artificial Intelligence Initiative (A*AI), an agency-wide, cross-institute programme that focuses research efforts on human-centric AI. The Agency for Science, Technology and Research (A*STAR) is the national agency that coordinates Singapore's publicly-funded research and development.
-							<!-- I am also affiliated with the Department of Social and Cognitive Computing, in the Institute of High Performance Computing (<a href="https://www.a-star.edu.sg/ihpc">IHPC</a>), a Research Institute under A*STAR. -->
-							<br><br>
-							I earned my Ph.D. in Psychology and a Master's degree in Computer Science from Stanford University.
-							For my dissertation research, I worked primarily with <a href="https://web.stanford.edu/~ngoodman">Noah Goodman</a> (<a href="https://cocolab.stanford.edu/">Computation and Cognition Lab</a>) and Jamil Zaki (<a href="http://ssnl.stanford.edu/">Stanford Social Neuroscience Lab</a>).
-							I also hold an undergraduate degree in Economics and Physics from Cornell University.
+					<div class="pl-md-5 ml-md-3 mr-md-3 mb-5">
+						<p style="text-align:justify">
+							I am a PhD student at School of Computing, National University of Singapore (NUS), under the joint supervision of Professor Dong Jin Song at NUS and Dr. Guo Huaqun at Institute for Infocomm Research (I2R), A*STAR. My research interests include cyber-security and software engineering. 
+						</p><p style="text-align:justify">
+							Previously I severed as a Software Engineer at Gemalto (now part of Thales Group), a Software Analyst at NCS (a member of SingTel Group) and a Research Engineer at Institute for Infocomm Research, A*STAR. I received my Bachelor (Hons.) degree in Computer Science at Nanyang Technological University (NTU), Singapore, and Master degree in Infocomm Security at National University of Singapore (NUS).
+						</p><p style="text-align:justify">
+							Prior to joining NUS for the PhD study, I have working experience in diverse product teams such as CAD software development, mobile banking solutions and e-government platform. My previous research covers security analysis on mobile applications and blockchain.
 						</p>
-						<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
 						<p><a href="#" class="btn-custom">Find More in my CV <span class="ion-ios-arrow-forward"></span></a></p>
 					</div>
 				</div>
@@ -103,154 +111,46 @@
 		</div>
 	</section>
 
-	<!-- DROPPED THIS SECTION -->
-	<!--section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
-		<div class="container">
-			<div class="row d-md-flex align-items-center justify-content-end">
-				<div class="col-lg-10">
-					<div class="row d-md-flex align-items-center">
-						<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18">
-								<div class="text">
-									<strong class="number" data-number="18">0</strong>
-									<span>Years of Experienced</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18">
-								<div class="text">
-									<strong class="number" data-number="351">0</strong>
-									<span>Happy Clients</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18">
-								<div class="text">
-									<strong class="number" data-number="564">0</strong>
-									<span>Finished Projects</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18">
-								<div class="text">
-									<strong class="number" data-number="300">0</strong>
-									<span>Working Days</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section-->
-
+	<a name="publications" class="jumptarget"><div>HIDDEN PART - NOT EXPECTED TO BE DISPLAYED</div></a>
 	<section class="ftco-services">
-		<div class="container">
-			<div class="row justify-content-start mb-5 pb-5">
-				<div class="col-md-4 heading-section ftco-animate">
+		<div class="container">			
+			<div class="row justify-content-start mb-2 pb-2 pl-md-3 mr-md-3">
+				<div class="col-md-6 heading-section ftco-animate">
 					<h2 class="mb-4">Publication & Research</h2>
 				</div>
-				<div class="col-md-8 pl-md-5 ftco-animate">
+				<div class="col-md-6 pl-md-5 ftco-animate">
 					<div class="pl-md-4 border-line">
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in.</p>
+						<p align="right">Updated in November 2019.</p>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4 d-flex align-self-stretch ftco-animate">
-					<div class="media block-6 services d-block">
-						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-idea"></span>
-						</div>
-						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Perfectly Design</h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-						</div>
-					</div>      
-				</div>
-				<div class="col-md-4 d-flex align-self-stretch ftco-animate">
-					<div class="media block-6 services d-block">
-						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-compass-symbol"></span>
-						</div>
-						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Carefully Planned</h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-						</div>
-					</div>    
-				</div>
-				<div class="col-md-4 d-flex align-self-stretch ftco-animate">
-					<div class="media block-6 services d-block">
-						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-layers"></span>
-						</div>
-						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Smartly Execute</h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-						</div>
-					</div>      
-				</div>
+
+			<div class="ul justify-content-start mb-2 pb-2 pl-md-5 mr-md-3">
+				<li class="heading ftco-animate mb-2">
+					<b>Huasong Meng</b>, Vrizlynn L. L. Thing, Yao Cheng, Zhongmin Dai, and Li Zhang, “<u>A Survey of Android Exploits in the Wild</u>,” <i>Computers & Security</i>, vol. 76, pp. 71–91, 2018
+				</li>
+				<li class="heading ftco-animate mb-2">
+					<b>Mark Huasong Meng</b> and Yaou Qian, “<u>A Blockchain Aided Metric for Predictive Delivery Performance in Supply Chain Management</u>,” <i>IEEE International Conference on Service Operations and Logistics, and Informatics (SOLI)</i>, 2018
+				</li>
+				<li class="heading ftco-animate mb-2">
+					Duc Phong Le, <b>Huasong Meng</b>, Le Su, Sze Ling Yeo and Vrizlynn L. L. Thing, “<u>BIFF: A Blockchain-based IoT Forensics Framework with Identity Privacy</u>”, <i>IEEE Region 10 Conference (TENCON)</i>, 2018
+				</li>
+				<li class="heading ftco-animate mb-2">
+					Li Zhang, <b>Huasong Meng</b> and Vrizlynn L. L. Thing, “<u>Progressive Control Flow Obfuscation for Android Applications</u>”, <i>IEEE Region 10 Conference (TENCON)</i>, 2018
+				</li>
+				<li class="heading ftco-animate mb-2">
+					<b>Mark Huasong Meng</b>, Guangdong Bai, Joseph K. Liu, Xiapu Luo and Yu Wang, “<u>Analyzing Use of High Privileges on Android: An Empirical Case Study of Screenshot and Screen Recording Applications</u>”, <i>The 14th International Conference on Information Security and Cryptology (Inscrypt)</i>, 2018
+				</li>
+				<li class="heading ftco-animate mb-2">
+					Le Su, Yao Cheng, <b>Huasong Meng</b>, Vrizlynn Thing, Zhe Wang, Linghe Kong, and Long Cheng, “<u>Securing Intelligent Transportation System: a Blockchain-based Approach with Attack Mitigation</u>,” <i>The 2nd International conference on Smart Block (SmartBlock)</i>, 2019
+				</li>
 			</div>
-			<div class="row justify-content-start mt-5 py-5">
-				<div class="col-md-4 heading-section ftco-animate">
-					<h2 class="mb-4">Career Experience</h2>
-					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-				</div>
-				<div class="col-md-8 ftco-animate">
-					<div class="row d-flex">
-						<div class="col-md-6 d-flex align-items-stretch">
-							<div class="media block-6 services services-2 d-block bg-light p-4 mb-4">
-								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="flaticon-layers"></span>
-								</div>
-								<div class="media-body p-2 mt-3">
-									<h3 class="heading">Design</h3>
-									<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 d-flex align-items-stretch">
-							<div class="media block-6 services services-2 d-block bg-light p-4 mb-4">
-								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="flaticon-layers"></span>
-								</div>
-								<div class="media-body p-2 mt-3">
-									<h3 class="heading">Industrial Design</h3>
-									<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 d-flex align-items-stretch">
-							<div class="media block-6 services services-2 d-block bg-light p-4 mb-4">
-								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="flaticon-layers"></span>
-								</div>
-								<div class="media-body p-2 mt-3">
-									<h3 class="heading">Architecture Support</h3>
-									<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 d-flex align-items-stretch">
-							<div class="media block-6 services services-2 d-block bg-light p-4 mb-4">
-								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="flaticon-layers"></span>
-								</div>
-								<div class="media-body p-2 mt-3">
-									<h3 class="heading">Renovation</h3>
-									<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			
+			
 		</div>
 	</section>
 
+	<a name="projects"/>
 	<section class="ftco-section ftco-no-pb">
 		<div class="container">
 			<div class="row justify-content-start mb-5 pb-2">
@@ -373,6 +273,7 @@
 		</div>
 	</section>
 
+	<a name="experience"/>
 	<section class="ftco-section testimony-section bg-light">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-3">
@@ -462,6 +363,61 @@
 										<p class="name">Garreth Smith</p>
 										<span class="position">System Analyst</span>
 									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-start mt-5 py-5">
+				<div class="col-md-4 heading-section ftco-animate">
+					<h2 class="mb-4">Career Experience</h2>
+					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+				</div>
+				<div class="col-md-8 ftco-animate">
+					<div class="row d-flex">
+						<div class="col-md-6 d-flex align-items-stretch">
+							<div class="media block-6 services services-2 d-block bg-light p-4 mb-4">
+								<div class="icon d-flex justify-content-center align-items-center">
+									<span class="flaticon-layers"></span>
+								</div>
+								<div class="media-body p-2 mt-3">
+									<h3 class="heading">Design</h3>
+									<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 d-flex align-items-stretch">
+							<div class="media block-6 services services-2 d-block bg-light p-4 mb-4">
+								<div class="icon d-flex justify-content-center align-items-center">
+									<span class="flaticon-layers"></span>
+								</div>
+								<div class="media-body p-2 mt-3">
+									<h3 class="heading">Industrial Design</h3>
+									<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 d-flex align-items-stretch">
+							<div class="media block-6 services services-2 d-block bg-light p-4 mb-4">
+								<div class="icon d-flex justify-content-center align-items-center">
+									<span class="flaticon-layers"></span>
+								</div>
+								<div class="media-body p-2 mt-3">
+									<h3 class="heading">Architecture Support</h3>
+									<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 d-flex align-items-stretch">
+							<div class="media block-6 services services-2 d-block bg-light p-4 mb-4">
+								<div class="icon d-flex justify-content-center align-items-center">
+									<span class="flaticon-layers"></span>
+								</div>
+								<div class="media-body p-2 mt-3">
+									<h3 class="heading">Renovation</h3>
+									<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
 								</div>
 							</div>
 						</div>
@@ -680,67 +636,34 @@
 		</div>
 	</section>
 
+	
+	<a name="contact" class="jumptarget"><div>HIDDEN PART - NOT EXPECTED TO BE DISPLAYED</div></a>
 	<footer class="ftco-footer ftco-bg-dark ftco-section">
 		<div class="container">
 			<div class="row mb-5">
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Mosaic</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-						</ul>
-					</div>
+				<div class="ftco-footer-widget pl-3 mb-4 col-md-6 col-lg-8">
+					<h2 class="ftco-heading-2">Contact Me</h2>
+					<p>You can approach me through email hmeng{at}comp.nus.edu.sg.</p>
 				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4 ml-md-4">
-						<h2 class="ftco-heading-2">Links</h2>
-						<ul class="list-unstyled">
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Services</h2>
-						<ul class="list-unstyled">
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Architectural Design</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Interior Design</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Exterior Design</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lighting Design</a></li>
-							<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>AutoCAD Service</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Newsletter</h2>
-						<p>Far far away, behind the word mountains, far from the countries.</p>
-						<form action="#" class="subscribe-form">
-							<div class="form-group">
-								<input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-								<input type="submit" value="Subscribe" class="form-control submit px-3">
-							</div>
-						</form>
-					</div>
+				<div class="ftco-footer-widget pl-3 col-md-6 col-lg-4" style="border-left:1px solid #333;">
+					<h2 class="ftco-heading-2">Useful Links</h2>
+					<ul class="list-unstyled">
+						<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>NUS School of Computing</a></li>
+						<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Institute for Infocomm Research</a></li>
+					</ul>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center">
-
-					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-					</div>
+					<p>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template "Mosaic" is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
 				</div>
 			</div>
-		</footer>
+		</div>
+	</footer>
 
 
 

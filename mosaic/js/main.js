@@ -19,19 +19,41 @@
 
 	var fullHeight = function() {
 
-		$('.js-fullheight').css('height', $(window).height()-70);
+		var actualHeight = $(window).height();
+
+		if (actualHeight > 800) {
+			actualHeight = 800;
+		}
+
+		$('.js-fullheight').css('height', actualHeight-70);
 		$(window).resize(function(){
-			$('.js-fullheight').css('height', $(window).height()-70);
+			$('.js-fullheight').css('height', actualHeight-70);
 		});
 
 	};
 	fullHeight();
 
+	/*
 	var almostFullHeight = function() {
 
 		$('.js-almostfullheight').css('height', $(window).height()*0.75);
 		$(window).resize(function(){
 			$('.js-almostfullheight').css('height', $(window).height()*0.75);
+		});
+
+	};
+	*/
+	var almostFullHeight = function() {
+
+		var actualHeight = $(window).height();
+		
+		if (actualHeight > 800) {
+			actualHeight = 800;
+		}
+
+		$('.js-almostfullheight').css('height', actualHeight*0.75);
+		$(window).resize(function(){
+			$('.js-almostfullheight').css('height', actualHeight*0.75);
 		});
 
 	};

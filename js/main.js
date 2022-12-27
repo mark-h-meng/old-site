@@ -21,8 +21,8 @@
 
 		var actualHeight = $(window).height();
 
-		if (actualHeight > 800) {
-			actualHeight = 800;
+		if (actualHeight > 500) {
+			actualHeight = 500;
 		}
 
 		$('.js-fullheight').css('height', actualHeight-70);
@@ -47,8 +47,8 @@
 
 		var actualHeight = $(window).height();
 		
-		if (actualHeight > 800) {
-			actualHeight = 800;
+		if (actualHeight > 500) {
+			actualHeight = 500;
 		}
 
 		$('.js-almostfullheight').css('height', actualHeight*0.75);
